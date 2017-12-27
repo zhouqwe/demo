@@ -1,0 +1,55 @@
+body{background: #f3f5f7;}
+.app4{margin-bottom: 60px;}
+
+header{width: 100%;height: 48px;display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;flex-direction: column;-webkit-box-pack: center;-ms-flex-pack: center;-webkit-justify-content: center;justify-content: center;-webkit-box-align: center;-ms-flex-align: center;-webkit-align-items: center;position: fixed;align-items: center;top: 0;padding-left: 12px;padding-right: 12px;background: #07111b;z-index: 99999;box-sizing: border-box;}
+header .newheader{width: 100%;font-size: 14px;line-height: 48px;color: #fff;}
+header .newheader .logo{display: block;float: left;color: #fff;font-size: 16px;}
+header .newheader .right-box{float: right;color: #fff;display: block;min-width: 50px;text-align: right;}
+
+.banner{margin-top: 48px;}
+.banner a{display: block;width: 100%;}
+.banner a img{display: block;width: 100%;}
+.banner .swiper-pagination{text-align: left;}
+.banner .swiper-pagination-bullet{background: #fff;opacity:1;}
+.banner .swiper-pagination-bullet-active{background: #d43e2e;}
+
+.nav {margin: 0 auto 10px;box-sizing: border-box;padding: 10px 0 5px 15px;background: #fff;border-bottom: 1px solid #eee;border-top: 1px solid #eee;box-shadow: 0 0 10px 0 rgba(7,17,27,.1);}
+.nav .con_3 a{display: block;}
+.nav .con_3 img{display: block;width: 70%;border-radius:100% ;margin:0 auto;}
+.nav .con_3 p{text-align: center;font-size: 14px;color: #333;margin-top: 5px;}
+
+.tit{font-size: 16px;height: 48px;line-height: 48px;margin-top: 10px;padding:0 10px;}
+.tit a{display: block;float: right;text-align: center;box-sizing: border-box;border: 1px solid #71777d;color: #71777d;font-size: 12px;height: 24px;line-height: 24px;border-radius: 12px;width: 50px;margin-top: 12px;}
+.con_mall ul{box-sizing: border-box;padding: 0 5px;}
+.con_mall li{width: 50%;box-sizing: border-box;padding:5px;float: left;}
+.con_mall li a{display: block;background: #fff;border-radius:5px ;box-shadow: 0 0 10px 0 rgba(7,17,27,.1);overflow: hidden;}
+.con_mall li img{display: block;width: 100%;}
+.con_mall li p{height: 25px;line-height: 25px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;box-sizing: border-box;padding: 0 10px;color: #333;font-size: 14px;}
+.con_mall li span{box-sizing: border-box;padding: 0 10px;color: #999;line-height: 25px;}
+
+.con_new {background: #fff;box-shadow: 0 0 10px 0 rgba(7,17,27,.1);}
+.con_new ul{padding: 0 0.625rem 1px;}
+.con_new ul li{margin-bottom: 10px;}
+.con_new .con_new_l {float: left;position: relative;margin-right: 10px;}
+.con_new .con_new_l .con_new_img{width: 5.625rem;}
+.con_new .con_new_l .con_new_img img{display: block;width: 100%;border-radius: 5px;}
+.con_new .con_new_r .con_new_r_c{width:100%;}
+.con_new .con_new_r .con_new_r_c .con_new_r_c_name{color: #333;font-size: 0.875rem;margin-bottom: 0.5rem;}
+.con_new .con_new_r .con_new_r_c .con_new_r_c_introduce{color: #71777d;font-size: 12px;line-height: 1.125rem;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 3;-webkit-box-orient: vertical;}
+
+footer{position: fixed;bottom: 0;left: 0;right: 0;width: 100%;background:#fff;box-shadow: 0 0 10px 0 rgba(7,17,27,.1);height: 48px;}
+footer li{float: left;width: 25%;}
+footer a{display: block;height: 100%;}
+footer img{display: block;width: 30px;height: 30px;background-position: center;background-repeat: no-repeat;background-size: 25px;margin: 0 auto;}
+footer p{text-align: center;color: #333;}
+footer li.cur p{color: #f01414;}
+
+footer li:nth-child(1) img{background-image:url(../webicon4/index11.png) ;}
+footer li:nth-child(2) img{background-image:url(../webicon4/index22.png) ;}
+footer li:nth-child(3) img{background-image:url(../webicon4/index33.png) ;}
+footer li:nth-child(4) img{background-image:url(../webicon4/index44.png) ;}
+
+footer li.cur:nth-child(1) img{background-image:url(../webicon4/index1.png) ;}
+footer li.cur:nth-child(2) img{background-image:url(../webicon4/index2.png) ;}
+footer li.cur:nth-child(3) img{background-image:url(../webicon4/index3.png) ;}
+footer li.cur:nth-child(4) img{background-image:url(../webicon4/index4.png) ;}
