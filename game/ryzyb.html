@@ -1125,8 +1125,6 @@ HdGame.initWxConfig({"isHideShareBtn":false,"isHideMenuItems":false,"fullUrl":"h
         HdGame.initModuleLayer('#shemaleImg',-1,"",gameImgArgs);
         HdGame.initModuleLayer('#gameLeftBtn',-1,"",gameBtnArgs);
         HdGame.initModuleLayer('#gameRightBtn',-1,"",gameBtnArgs);
-        
-//      console.log(shemaleImgArg,belleImgArg,gameLeftBtnArg,gameRightBtnArg);
     }
     function getSizeNower(url,obj){
         HdGame.imgReady(url,function(){
@@ -1236,10 +1234,10 @@ HdGame.initWxConfig({"isHideShareBtn":false,"isHideMenuItems":false,"fullUrl":"h
                 setTimeout(function(){gameOver(hg.grade.val);},1000);
                 return;
             }
-//          this._pause = true;   //防止iPhone下通过下拉卡住setTimeout作弊
-//          setTimeout(function(){
-//              _this._pause = false;
-//          },50);
+            this._pause = true;   //防止iPhone下通过下拉卡住setTimeout作弊
+            setTimeout(function(){
+                _this._pause = false;
+            },50);
         };
         Aside.prototype.setImgCss = function(){
             for(var i = 0;i < this.imgNum;i++){
