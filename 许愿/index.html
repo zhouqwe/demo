@@ -13,7 +13,9 @@
 		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
 		<script type="text/javascript">
 			$("img").on("click",function(){
+				$(location).attr('href', 'https://www.baidu.com/');
 				$(window).attr('location','https://www.baidu.com/');
+				$(location).prop('href', 'https://www.baidu.com/');
 			})
 		</script>
 	</body>
