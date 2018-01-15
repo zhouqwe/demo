@@ -9,17 +9,18 @@
 	</head>
 	<body>
 		<img src="img/index_bj.png"/>
-		
-		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+		<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
 		<script type="text/javascript">
-			$("img").on("click",function(){
-				alert("1");
-				$(location).attr('href', 'https://www.baidu.com/');
-				$(window).attr('location','https://www.baidu.com/');
-				$(location).prop('href', 'https://www.baidu.com/');
-				window.location.href = "https://www.baidu.com/";
-				window.location.replace("https://www.baidu.com/");
-				alert("2");
+			$(function(){
+				$("img").on("click",function(){
+					alert("1");
+//					$(location).attr('href', 'https://www.baidu.com/');
+					$(window).attr('location','https://www.baidu.com/');
+//					$(location).prop('href', 'https://www.baidu.com/');
+//					window.location.href = "https://www.baidu.com/";
+//					window.location.replace("https://www.baidu.com/");
+					alert("2");
+				})
 			})
 		</script>
 	</body>
