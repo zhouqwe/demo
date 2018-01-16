@@ -22,7 +22,7 @@
 
 .list{position: absolute;top: 19%;left: 60%;width: 70%;margin: 0 0 0 -40%;bottom: 23%;}
 .list ul{position: absolute;top: 0;left: 0;right: 0;bottom: 0;}
-.list li{float: left;overflow: hidden;height: 36px;line-height: 36px;position: absolute;}
+.list li{float: left;overflow: hidden;height: 36px;line-height: 36px;position: absolute;cursor: pointer;}
 .list li p{float: left;display: none;}
 .list li:nth-child(1){}
 
