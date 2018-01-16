@@ -1,0 +1,45 @@
+#meng{position: fixed;top: 0;left: 0;right: 0;bottom: 0;background: rgba(0,0,0,.7);display: none;}
+#index_img,#list_bj,#draw_bj{display: block;width: 100%;}
+.thip,.thip2{position: fixed;top: 20%;left: 50%;margin: 0 0 0 -30%;width: 60%;z-index: 1000;display: none;}
+.thip img,.thip2 img{display: block;width: 100%;}
+.phone,.phone2{position: absolute;bottom: 30px;left: 50%;right: 0;width: 60%;margin-left: -30%;}
+.phone p{font-size: 14px;font-weight: 900;color: #666;}
+.phone input{height: 34px;line-height: 34px;outline: none;background-color:#fff ;display: block;width: 100%;box-sizing: border-box;padding: 0 0 0 10px;border-radius:10px ;font-size: 14px;margin: 5px auto 30px;
+	-moz-box-shadow:-1px 1px 9px #999 inset;               /* For Firefox3.6+ */
+	-webkit-box-shadow:-1px 1px 9px #999 inset;            /* For Chrome5+, Safari5+ */
+	box-shadow:-1px 1px 9px #999 inset;                    /* For Latest Opera */
+}
+.phone a,.phone2 a{display: block;width: 64%;margin: 0 auto;}
+.phone a img,.phone2 a img{display: block;width: 100%;}
+
+.phone2{display: none;}
+.phone2 p{font-size: 20px;font-weight: 900;color: #666;text-align: center;margin: 0 auto 35px;}
+.phone2 a{width: 90%;margin: 0 auto 15px;}
+
+.thip2 .phone3 {position: absolute;bottom: 20%;left: 50%;right: 0;width: 60%;margin-left: -30%;}
+.thip2 .phone3 p{font-size: 20px;text-align: center;color: #555;letter-spacing:2px;}
+.thip2 .phone3 span{font-size: 14px;color: #666;text-align: center;display: block;letter-spacing:2px;height: 30px;line-height: 30px;}
+
+.list{position: fixed;top: 19%;left: 60%;width: 70%;margin: 0 0 0 -40%;bottom: 23%;}
+.list ul{position: absolute;top: 0;left: 0;right: 0;bottom: 0;}
+.list li{float: left;overflow: hidden;height: 36px;line-height: 36px;position: absolute;}
+.list li p{float: left;display: none;}
+.list li:nth-child(1){}
+
+
+.list i{
+	border: 1px solid #a89797;
+	display: block;width: 10px;height: 10px;float: left;
+	position: absolute;
+	/*position: relative;top: 10px;left: 5px;*/
+	}
+.list i img{display: none;width: 20px;height: 20px;    position: relative;top: -9px;left: -3px;}
+.list li.on i img{display: block;}
+.list_btn{position: fixed;top: 77%;left: 60%;margin: 0 0 0 -33%;width: 50%;}
+.list_btn p{text-align: right;font-size: 12px;color: #666;margin: 10px 0 0px 0;}
+.list_btn p span{color: #943c3c;}
+.list_btn a{display: block;width: 58%;margin: 10px 0 0;float: right;}
+.list_btn a img{display: block;width: 100%;}
+
+.draw{position: fixed;top: 41%;left: 46%;margin: 0 0 0 -85px;}
+#draw_region{width: 169px;height: 95px;}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+	</head>
+
+	<body>
+		<img src="img/draw_bj.png" id="draw_bj"/>
+		<script src="js/jquery.js"></script>
+		<script src="js/wScratchPad.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+		<div class="draw">
+			<div id="draw_region"></div>
+		</div>
+		<!--<a id="btna" onclick="$('#draw_region').wScratchPad('enable', false);">123123</a>-->		
+		<script type="text/javascript">
+			$('#draw_region').wScratchPad({
+				size : 10,
+				bg: './img/draw_region2.png',
+				fg: './img/draw_region1.png',
+				//'cursor': 'url("./cursors/coin.png") 5 5, default',
+				scratchMove: function(e, percent) {
+					$('#demo2-percent').html(percent);
+
+					if(percent > 50) {
+						this.clear();
+						alert("1");
+						
+					}
+				}
+			});
+		</script>
+	</body>
+
+</html>
