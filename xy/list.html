@@ -14,22 +14,22 @@
 				<li data-id = "1" style="width: 47%;top: 0;left: 0;"><p>升值加薪</p><i style="top: 43%;right: 9.5%;"><img src="img/yes.png"/></i></li>
 				<li data-id = "2"  style="width: 47%;top: 0;left: 47%;"><p>多看1本书</p><i style="top: 43%;right: 25.5%;"><img src="img/yes.png"/></i></li>
 				<li data-id = "3"  style="width: 50%;top: 10%;left: 0;"><p>努力减10斤</p><i style="top: 35%;right: 10.5%;"><img src="img/yes.png"/></i></li>
-				<li data-id = "4"  style="width: 50%;top: 10%;left: 50%;"><p>Get一项新技能</p><i style="top: 32%;right: 4.5%;"><img src="img/yes.png"/></i></li>
+				<li data-id = "4"  style="width: 50%;top: 10%;left: 50%;"><p>Get一项新技能</p><i style="top: 32%;right: 10%;"><img src="img/yes.png"/></i></li>
 				<li data-id = "5"  style="width: 40%;top: 18%;left: 0;"><p>成为老司机</p><i style="top: 35%;right: 7%;"><img src="img/yes.png"/></i></li>
-				<li data-id = "6"  style="width: 40%;top: 18%;left: 42%;"><p>长胖10斤</p><i style="top: 35%;right: 10%;"><img src="img/yes.png"/></i></li>
+				<li data-id = "6"  style="width: 40%;top: 18%;left: 42%;"><p>长胖10斤</p><i style="top: 35%;right: 20%;"><img src="img/yes.png"/></i></li>
 				<li data-id = "7"  style="width: 35%;top: 27%;left: 0;"><p>逢考必过</p><i style="top: 35%;right: 10%;"><img src="img/yes.png"/></i></li>
-				<li data-id = "8"  style="width: 56%;top: 27%;left: 40%;"><p>周末不加班</p><i style="top: 35%;right: 7%;"><img src="img/yes.png"/></i></li>
+				<li data-id = "8"  style="width: 56%;top: 27%;left: 40%;"><p>周末不加班</p><i style="top: 35%;right: 10%;"><img src="img/yes.png"/></i></li>
 				<li data-id = "9"  style="width: 40%;top: 35%;left: 0;"><p>顺利脱单</p><i style="top: 35%;right: 10%;"><img src="img/yes.png"/></i></li>
 				<li data-id = "10"  style="width: 50%;top: 35%;left: 46%;"><p>换新车</p><i style="top: 35%;right: 48%;"><img src="img/yes.png"/></i></li>
 				<li data-id = "11"  style="width: 100%;top: 44%;left: 0;"><p>和喜欢的人一起旅游</p><i style="top: 35%;right: 10%;"><img src="img/yes.png"/></i></li>
 				<li data-id = "12"  style="width: 50%;top: 53%;left: 0;"><p>有套自己的房</p><i style="top: 35%;right: 10%;"><img src="img/yes.png"/></i></li>
-				<li data-id = "13"  style="width: 38%;top: 53%;left: 50%;"><p>创业成功</p><i style="top: 35%;right: 6%;"><img src="img/yes.png"/></i></li>
+				<li data-id = "13"  style="width: 38%;top: 53%;left: 50%;"><p>创业成功</p><i style="top: 35%;right: 15%;"><img src="img/yes.png"/></i></li>
 				<li data-id = "14"  style="width: 42%;top: 61%;left: 0;"><p>学一门语言</p><i style="top: 35%;right: 10%;"><img src="img/yes.png"/></i></li>
-				<li data-id = "15"  style="width: 46%;top: 61%;left: 42%;"><p>拓宽社交圈</p><i style="top: 35%;right: 6%;"><img src="img/yes.png"/></i></li>
+				<li data-id = "15"  style="width: 46%;top: 61%;left: 42%;"><p>拓宽社交圈</p><i style="top: 35%;right: 13%;"><img src="img/yes.png"/></i></li>
 				<li data-id = "16"  style="width: 50%;top: 69.5%;left: 0;"><p>收获爱情</p><i style="top: 35%;right: 10%;"><img src="img/yes.png"/></i></li>
-				<li data-id = "17"  style="width: 38%;top: 69.5%;left: 50%;"><p>坚持健身</p><i style="top: 35%;right: 6%;"><img src="img/yes.png"/></i></li>
+				<li data-id = "17"  style="width: 38%;top: 69.5%;left: 50%;"><p>坚持健身</p><i style="top: 35%;right: 14%;"><img src="img/yes.png"/></i></li>
 				<li data-id = "18"  style="width: 50%;top: 78%;left: 0;"><p>厨艺突飞猛进</p><i style="top: 35%;right: 10%;"><img src="img/yes.png"/></i></li>
-				<li data-id = "19"  style="width: 85%;top: 87%;left: 0;"><p>认识能交心的朋友</p><i style="top: 35%;right: 7%;"><img src="img/yes.png"/></i></li>
+				<li data-id = "19"  style="width: 85%;top: 87%;left: 0;"><p>认识能交心的朋友</p><i style="top: 35%;right: 10%;"><img src="img/yes.png"/></i></li>
 			</ul>
 		</div>
 		<div class="list_btn">
@@ -38,5 +38,22 @@
 		</div>
 		<script src="js/jquery.js"></script>
 		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			function sortNumber(a,b)
+			{
+				return a - b
+			}
+			var cc = [3,1,4,6,8,10];
+			var length = cc.length;
+//			cc.sort(sortNumber);
+			console.log(cc.sort(sortNumber),length);
+			for (var i = 0 ;i < length ; i++) {
+				if (!$(".list ul li").eq(cc[i]-1).hasClass("on")) {
+					$(".list ul li").eq(cc[i]-1).addClass("on");
+					var aa = $(".list li.on").length;
+					$(".list_btn p span").html(aa);
+				}
+			}
+		</script>
 	</body>
 </html>

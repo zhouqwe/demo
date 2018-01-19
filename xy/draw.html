@@ -9,7 +9,7 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
 	</head>
 
-	<body>
+	<body style="position: relative;">
 		<img src="img/draw_bj.png" id="draw_bj"/>
 		<script src="js/jquery.js"></script>
 		<script src="js/wScratchPad.min.js" type="text/javascript" charset="utf-8"></script>
@@ -17,7 +17,8 @@
 		<div class="draw">
 			<div id="draw_region"></div>
 		</div>
-		<!--<a id="btna" onclick="$('#draw_region').wScratchPad('enable', false);">123123</a>-->		
+		<!--<a id="btna" onclick="$('#draw_region').wScratchPad('enable', false);"></a>-->
+		<button id="btna" onclick="$('#draw_region').wScratchPad('enable', false);"></button>
 		<script type="text/javascript">
 			$('#draw_region').wScratchPad({
 				size : 10,
@@ -29,7 +30,9 @@
 
 					if(percent > 50) {
 						this.clear();
+						$("#btna").click();
 						alert("1");
+						console.log(1);
 						
 					}
 				}

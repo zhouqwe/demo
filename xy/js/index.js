@@ -6,7 +6,7 @@ $("#index_img").on("click", function() {
 	$("#meng").show();
 });
 
-$(".thip,.thip2").on("click",function(){
+$(".thip,.thip1,.thip2").on("click",function(){
 	$(this).hide();
 	$("#meng").hide();
 });
