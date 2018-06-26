@@ -215,7 +215,7 @@ body{font-size: 0.875rem;}
 .my .my_bot ul{border-bottom: 1px solid #ddd;}
 .my .my_bot li{float: left;width: 25%;box-sizing: border-box;border-right: 1px solid #ddd;border-top: 1px solid #ddd;}
 .my .my_bot li:nth-child(4n+4){border-right: none;}
-.my .my_bot li a{display: block;}
+.my .my_bot li a{display: block;border: 1px solid transparent;}
 .my .my_bot li a img{display: block;width: 45%;margin: 15px auto 5px;}
 .my .my_bot li a p{text-align: center;color: #666;margin-bottom: 10px;}
 .my .my_bot li a{}
