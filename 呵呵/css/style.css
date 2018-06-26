@@ -204,7 +204,19 @@ body{font-size: 0.875rem;}
 .login .dl_bot {width: 80%;margin: 0 auto;position: fixed;bottom: 0;left: 50%;margin-left: -40%;}
 .login .dl_bot p img{display: block;width: 100%;}
 .login .dl_bot>img{display: block;width: 18%;margin: 1.25rem auto;}
-.login .dl_bot {}
-.login {}
-.login {}
-.login {}
+
+.my {}
+.my .my_top_box{background: rgba(0,0,0,.6);min-height: 15.625rem;border-top: 1px solid transparent;}
+.my .tx_img {display: flex;margin: 1.25rem auto 0.625rem;justify-content: center;text-align:center;align-items:center;width: 6.25rem;height: 6.25rem;border-radius:50% ;border: 1px solid #2e2a27;}
+.my .tx_img img{display: block;width: 80px;height:80px;border-radius:50% ;}
+.my .my_top_box p{color: #ccc;text-align: center;height: 1.875rem;line-height: 1.875rem;}
+.my .my_top_box p i{display: inline-block;background: url(../icon/bianji.png) no-repeat center/cover;width: 1.25rem;height: 1.25rem;position: relative;top: 2px;left: 0.25rem;}
+.my .my_top_box p.on{font-size: 1.125rem;color: #ffcc66;}
+.my .my_bot ul{border-bottom: 1px solid #ddd;}
+.my .my_bot li{float: left;width: 25%;box-sizing: border-box;border-right: 1px solid #ddd;border-top: 1px solid #ddd;}
+.my .my_bot li:nth-child(4n+4){border-right: none;}
+.my .my_bot li a{display: block;}
+.my .my_bot li a img{display: block;width: 45%;margin: 15px auto 5px;}
+.my .my_bot li a p{text-align: center;color: #666;margin-bottom: 10px;}
+.my .my_bot li a{}
+.my .my_bot li a{}
