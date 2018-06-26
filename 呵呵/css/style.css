@@ -207,7 +207,7 @@ body{font-size: 0.875rem;}
 
 .my {}
 .my .my_top_box{background: rgba(0,0,0,.6);min-height: 15.625rem;border-top: 1px solid transparent;}
-.my .tx_img {display: flex;margin: 1.25rem auto 0.625rem;justify-content: center;text-align:center;align-items:center;width: 6.25rem;height: 6.25rem;border-radius:50% ;border: 1px solid #2e2a27;}
+.my .tx_img {display: flex;margin: 1.25rem auto 0.625rem;justify-content: center;text-align:center;align-items:center;width: 6.25rem;height: 6.25rem;border-radius:50% ;border: 1px solid #8e8e8e;}
 .my .tx_img img{display: block;width: 80px;height:80px;border-radius:50% ;}
 .my .my_top_box p{color: #ccc;text-align: center;height: 1.875rem;line-height: 1.875rem;}
 .my .my_top_box p i{display: inline-block;background: url(../icon/bianji.png) no-repeat center/cover;width: 1.25rem;height: 1.25rem;position: relative;top: 2px;left: 0.25rem;}
