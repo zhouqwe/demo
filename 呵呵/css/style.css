@@ -223,10 +223,10 @@ body{font-size: 0.875rem;}
 .my .my_bot li:nth-child(2) a img {background: url(../icon/css_sprites.png) no-repeat 50% 0%/300% auto;}
 .my .my_bot li:nth-child(3) a img {background: url(../icon/css_sprites.png) no-repeat 0% 50%/300% auto;}
 .my .my_bot li:nth-child(4) a img {background: url(../icon/css_sprites.png) no-repeat 50% 50%/300% auto;}
-.my .my_bot li:nth-child(5) a img {background: url(../icon/css_sprites.png) no-repeat 94% 0%/300% auto;}
-.my .my_bot li:nth-child(6) a img {background: url(../icon/css_sprites.png) no-repeat 94% 50%/300% auto;}
-.my .my_bot li:nth-child(7) a img {background: url(../icon/css_sprites.png) no-repeat 0% 94%/300% auto;}
-.my .my_bot li:nth-child(8) a img {background: url(../icon/css_sprites.png) no-repeat 50% 94%/300% auto;}
+.my .my_bot li:nth-child(5) a img {background: url(../icon/css_sprites.png) no-repeat 100% 0%/300% auto;}
+.my .my_bot li:nth-child(6) a img {background: url(../icon/css_sprites.png) no-repeat 100% 50%/300% auto;}
+.my .my_bot li:nth-child(7) a img {background: url(../icon/css_sprites.png) no-repeat 0% 100%/300% auto;}
+.my .my_bot li:nth-child(8) a img {background: url(../icon/css_sprites.png) no-repeat 50% 100%/300% auto;}
 .my .my_bot li a p{text-align: center;color: #666;margin-bottom: 10px;}
 .my .my_bot li a{}
 .my .my_bot li a{}
